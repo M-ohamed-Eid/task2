@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{width: 80%;margin: auto;}
+
+a{text-decoration: none;}
+
+.uppercase{text-transform:  capitalize;}
+
+.font{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.text-white{color: #ffff;}
+
+.clear{clear: both;}
+
+li{display: inline-block;}
+
+.text-position{text-align: center;}
+
+/* ============================ Start Navbar================================== */
+.nav{
+    background-color: black;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav .logo{display: inline-block;width: 20%;}
+
+.nav .links{float: right;width: 45%;}
+
+.nav ul{list-style: none;padding-top: 1%;font-size: 20px;}
+
+.nav .links li{margin-left: 6%;}
+
+.nav .links li a{color: #ffff;}
+
+.nav .links li a:hover{color: rgb(219, 199, 18);}
+
+/* ======================= End Navbar ========================= */
+
+/* ======================= Start Header ========================= */
+
+.header{
+    background-image: url(../Images/programmer.jpg);
+    height: 600px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.header .content-header{margin-top: 100px;background-color: rgb(0 0 0 / 10%);height: 100%;}
+
+.header .contenr-header .container{padding-top: 10%;}
+
+.header .leftSide{float: left;width: 50%;}
+
+.header .leftSide .brief{width: 80%;}
+
+.header .leftSide .brief img{width: 30%;}
+
+.header .leftSide .brief .p1{font-size: 30px;margin-top: 32px;}
+
+#border-bottom{width: 15%;height: 20px;border-bottom: 3px solid red;}
+
+.header .leftSide .brief .p2{margin-top: 40px;font-size: 15px;}
+
+.header .leftSide .brief button{
+    margin-top: 15%;
+    padding:10px;
+    width: 32%;
+    border: 2px solid #ffff;
+    outline: none;
+    background:none;
+    cursor: pointer;
+}
+
+.header .rightSide{float: right;width: 50%;}
+
+.header .rightSide .full-form{border-radius: 4%;}
+
+.header .rightSide form{width: 60%;margin: 20px auto;text-align: center;background-color: white;}
+
+.header .rightSide form h3{padding: 10px 30px;color: #2f2314ab;background-color: #eeee;}
+
+.header .rightSide form .form1{ width:80%;margin:0 auto 10% ;}
+
+.header .rightSide form .form1 input{border-bottom: 1px solid #ccc;}
+
+.header .rightSide form h3 span{color: orange;}
+
+.header .rightSide form input{width: 100%;height: 35px;margin-top: 15%;padding: 10px;outline: none;border: 0;}
+
+.header .rightSide form input[type="submit"]{
+    cursor: pointer;
+    margin-top: 5%;
+    background-color: orange;
+    height: 50px;
+}
+
+/* ======================= End Header ========================= */
+
+/* ======================= Start Social Media ========================= */
+
+.social-media{overflow: hidden;padding: 20px 0;}
+
+.social-media .leftSide{float: left;width: 40%;}
+
+.social-media .leftSide h2{color: #16151ad6;}
+
+.social-media .leftSide p{color:#ccc;margin-top:5px;}
+
+
+.social-media .rightSide{float: right;width: 60%;}
+
+.social-media .rightSide ul{font-size: 40px;color: #968b8b;list-style: none;padding: 2px;margin-left: 94px;}
+
+.social-media .rightSide ul li{margin-left: 20px;}
+
+/* ======================= End Social Media ========================= */
+
+/* ======================= Start Effect ========================= */
+
+.effect{
+    height: 510px;;
+    background-color: rgb(247, 241, 241);
+    border-top: 2px solid #cccc;
+    border-bottom: 1px solid #cccc;
+    padding: 11% 0;
+    overflow: hidden;
+}
+
+.effect .leftSide{
+    float: left;
+    width: 8%;
+    height: 250px;
+    background-color: red;
+    margin-right: 6%;
+}
+
+.effect .leftSide .tabs{
+    display: block;
+    width: 100%;
+    height: 33.3333%;
+    background-color: #333333;
+    color: #ffff;
+    cursor: pointer;
+    outline: none;
+}
+
+.effect .leftSide .tabs:hover{background-color: #EC8936;}
+
+.effect .middleSide{
+    float: left;
+    width: 50%;
+    height: 200px;
+    margin-right: 6%;
+    padding-top: 10px;
+}
+
+.effect .middleSide h4{font-size: 20px;color: #000000d9;margin-bottom: 30px;}
+
+.effect .middleSide p{margin-bottom: 15px;color: #989696;}
+
+.effect .middleSide button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:#EC8936 ;
+    border: 0;
+    outline: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.effect .rightSide{
+    float: left;
+    width: 30%;
+    height: 200px;
+    background-image: url(../Images/web\ development.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+/* ======================= End Effect ========================= */
+
+/* ======================= Stat List section ========================= */
+
+.list-section{overflow: hidden;padding: 10% 0;}
+
+.list-section .leftSide{float: left;height: 40%;width: 40%;}
+
+.list-section .leftSide img{width: 100%;height: 100%;}
+
+.list-section .rightSide{float: right;width: 45%;margin-left: 15%;} 
+
+.list-section .rightSide h2{color: #544545;}
+
+#border-line{width: 15%;height: 20px;border-bottom: 3px solid red;}
+
+.list-section .rightSide p{margin-top: 20px;color: #908181;}
+
+.list-section .rightSide .list{overflow: hidden;margin-top: 20px;}
+
+.list-section .rightSide .list .icon{
+    float: left;
+    width:10%;
+    color:#EC8936;
+    margin-top: 10px;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+.list-section .rightSide .list .icon i{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding-left: 28%;
+    padding-top: 30%;
+}
+
+.list-section .rightSide .list .text{float:right;width:85%;}
+
+.list-section .rightSide .list .text h4{color:#4c3b3b;}
+
+.list-section .rightSide .text p{margin-top: 0;}
+
+/* ======================= End List section ========================= */
+
+/* ======================= Start Picture Section ========================= */
+
+.picture-section{background-color: #eee;height: 500px;padding: 8% 0;}
+
+.picture-section .leftSide{float: left;width: 50%;}
+
+#border-line3{width: 15%;height: 20px;border-bottom: 3px solid rgb(255, 145, 0);}
+
+.picture-section .leftSide p{margin-top: 20px;color: #806e6e;}
+
+.picture-section .rightSide{float: right;width: 28%;margin-left: 10%;}
+
+.picture-section .rightSide img{width:  100% ; height: 100%;}
+
+/* ======================= End Picture Section ========================= */
+
+/* ======================= Start Features ========================= */
+
+.feature{text-align: center;padding: 5% 0;}
+
+.feature h1{color: #5d5555;}
+
+#boredr-line4{
+    width: 5%;
+    height: 20px;
+    border-bottom: 3px solid rgb(255, 0, 0);
+    margin: 0 auto;
+}
+
+.feature p{margin-top: 15px;color: #806e6e;}
+
+.feature .basic-feature{margin-top: 5%;overflow: hidden;}
+
+.feature .basic-feature .features{float: left;width: 33.333%;}
+
+.feature .basic-feature .features .icon{
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #EC8936;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.feature .basic-feature .features .icon i{margin-top: 10px;}
+
+.feature .basic-feature .features h2{color: #5d5555;}
+
+/* ======================= End Features ========================= */
+
+/* ======================= Start Price ========================= */
+
+.price{padding: 5% 0;background-color: rgba(218, 214, 214, 0.993); text-align: center;}
+
+.price h2{color: #5d5555; font-size: 30px;}
+
+#border-line5{width: 7%;height: 20px;border-bottom: 3px solid #EC8936;margin: 0 auto;}
+
+.price p{margin-top: 15px; font-size: small;color: #827474ee;}
+
+.price .basic-price{overflow: hidden;margin-top: 30px;}
+
+.price .basic-price .price{float: left;width:30%;}
+
+.basic-price .price h3{color: #ffff; border-bottom: 1px solid #fff; background-color:#403c3c ;padding: 15px 0;}
+
+.basic-price .price .first-section{background-color:#403c3c ; padding: 20px 0 0px 0;}
+
+.basic-price .price .first-section span{color: #fff;font-size: large;display: inline-block;}
+
+.basic-price .price .first-section .popular{ display:block ;color: #fff;padding:5px 0 ;background-color: #EC8936;}
+
+.basic-price .price .first-section h1{color: #fff;display: inline-block;}
+
+.basic-price .price .first-section p{color:#afa1a1ee; font-style: italic;padding-bottom: 10px;}
+
+.second-section span{display: block;padding: 10px 0; border-bottom: 1px solid #cccc; background-color: white; color:#696363cf;}
+
+.left{margin-right: 5%;}
+
+.top{margin-top: 30px;}
+
+/* ======================= End Price ========================= */
+
+/* ======================= Start Design ========================= */
+
+.design{height: 300px;background-image: url(../Images/picture2.jpg);background-size: cover;background-attachment: fixed; text-align: center;}
+
+.design .content-design{background-color:rgbrgb(0 0 0 / 24%) ; background-color: rgb(0 0 0 / 10%);height: 100%;padding-top:5% ;}
+
+.design .content-design h1{font-size: 40px;color: #ffff;}
+
+#border-line6{width: 7%;height: 20px;border-bottom: 3px solid #67d336;margin: 0 auto;}
+
+.design .content-design p{margin-top: 2%; color:#f9dede;margin-bottom: 2%}
+
+.design .content-design button{padding: 8px 25px;background: none;color: #fff;border: 1px solid #fff;outline: none;cursor: pointer;}
+
+/* ======================= End Design ========================= */
+
+/* ======================= Start Start Review ========================= */
+
+.review{margin-top: 10%;}
+
+.review h4{font-size: 30px;}
+
+#border-line7{width: 5%;height: 20px;border-bottom: 3px solid #EC8936;margin: 0 auto;}
+    
+.review p{margin: 3%;font-size: 15px; color: #7b6868;}
+
+.review p span{color: #7b6868;font-style: italic;}
+
+.review .bsic-review{overflow: hidden;}
+
+.review .bsic-review .child-review{float: left;width: 30%;position: relative;}
+
+.review .bsic-review .child-review p{background-color: #f7f2f2; padding: 15px 10px 15px 10px; border-radius: 5px;}
+
+.review .bsic-review .child-review .triangle-down {
+    position: absolute;
+    bottom: 75px;
+    left: 31px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+	border-top: 28px solid #f7f2f2;
+}
+
+.review .bsic-review .child-review .customer-name{overflow: hidden;margin-top: 15%;}
+
+.review .bsic-review .child-review .customer-name .icon{width:20%;height:20%;float: left; }
+
+.review .bsic-review .child-review .customer-name .icon img{width: 50px;height:50px;border-radius: 50%;}
+
+.review .bsic-review .child-review .customer-name .text{float: left; }
+
+.review .bsic-review .text h5{font-size:20px;color:#4c4141}
+
+.review .bsic-review .text span{font-size:15px;color:#4c41418c}
+
+/* ======================= End Start Review ========================= */
+
+/* ======================= Start Contact Us ========================= */
+
+.contact{text-align: center;padding: 5% 0;}
+
+.contact ,h1{color: #5d5555;}
+
+#border-line8{width: 5%;height: 20px;border-bottom: 3px solid #d33643;margin: 0 auto;}
+
+.contact p{margin-top:20px}
+
+.contact .formContact{margin-top: 8%;overflow: hidden;}
+
+.contact .formContact .leftSide{float: left;width: 47.5%;}
+
+
+.contact .formContact  form .leftSide input{
+    width:100%;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    outline:none; 
+    border: 0;
+    border-bottom: 1px solid #5e545452 ;
+}
+
+
+.contact .formContact .rightSide{float: right;width: 47.5%;}
+
+.contact .formContact  form .rightSide textarea{width: 100%;height: 140px;padding: 10px;resize: none;outline: none;border:0;border-bottom: 1px solid #5e545452;}
+
+.contact .formContact form input[type="submit"]{
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color:#EC8936 ;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color:#ffff
+}
+
+/* ======================= End Contact Us ========================= */
+
+/* ======================= Start Footer========================= */
+
+.footer{
+    text-align: center;
+    background-color: #211c1c;
+    color: #ccc;
+    padding: 5px 0;
+}
+
+.footer ul li{padding:10px;margin-left: 10px;font-size: xx-large;}
+
+.footer ul li a{color:#ccc}
+
+.footer ul li a:hover{color:rgb(163, 202, 20)}
+
+/* ======================= End Footer========================= */
